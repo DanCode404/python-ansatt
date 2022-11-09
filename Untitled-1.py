@@ -1,13 +1,5 @@
 import json
 
-ansatte = '''
-{
-    "navn": "Daniel",
-    "etternavn": "Myrvoll",
-    "stilling": "vasker"
-}
-'''
-
 
 def leggtil():
     print("Skriv inn navnet")
