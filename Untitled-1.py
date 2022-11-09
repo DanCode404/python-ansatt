@@ -8,9 +8,10 @@ ansatte = '''
 }
 '''
 
+
+
 data = json.loads(ansatte)
 
-new_string = json.dumps(data, indent=2)
 
 def add():
     print("Legg inn ny ansatt")
@@ -61,7 +62,7 @@ def main():
         close()
 
 
-main()
+    main()
 
 
 
